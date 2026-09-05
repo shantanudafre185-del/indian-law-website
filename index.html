@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BharatLaw | Indian Law & Legal System</title>
+
+    <meta name="description"
+          content="BharatLaw is an educational website explaining the Indian Constitution, courts, laws and legal resources.">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header" id="header">
+
+        <div class="container navbar">
+
+            <a href="#home" class="logo">
+                <span>⚖️</span>
+                BharatLaw
+            </a>
+
+            <button class="menu-btn" id="menuBtn">
+                ☰
+            </button>
+
+            <nav class="nav-menu" id="navMenu">
+
+                <a href="#home">Home</a>
+                <a href="#constitution">Constitution</a>
+                <a href="#laws">Laws</a>
+                <a href="#courts">Courts</a>
+                <a href="#case-status">Cases</a>
+                <a href="#resources">Resources</a>
+
+                <button class="theme-btn" id="themeBtn">
+                    🌙
+                </button>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="container hero-content">
+
+                <div class="hero-text">
+
+                    <span class="badge">
+                        🇮🇳 Indian Legal Information Portal
+                    </span>
+
+                    <h1>
+                        Understand
+                        <span>Indian Law</span>
+                        Easily
+                    </h1>
+
+                    <p>
+                        Learn about the Constitution, courts, major areas
+                        of law and official legal resources in simple language.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#laws" class="btn primary-btn">
+                            Explore Laws
+                        </a>
+
+                        <a href="#courts" class="btn secondary-btn">
+                            Court System
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="hero-card">
+
+                    <div class="india-symbol">
+                        ⚖️
+                    </div>
+
+                    <h3>
+                        Indian Legal System
+                    </h3>
+
+                    <p>
+                        Constitution • Courts • Laws • Rights • Duties
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SEARCH ================= -->
+
+        <section class="search-section">
+
+            <div class="container">
+
+                <div class="search-box">
+
+                    <h2>🔎 Search Legal Topics</h2>
+
+                    <p>
+                        Search for a law or legal topic below.
+                    </p>
+
+                    <div class="search-input">
+
+                        <input
+                            type="text"
+                            id="lawSearch"
+                            placeholder="Example: Fundamental Rights, Cyber Law, Bail..."
+                        >
+
+                        <button id="searchBtn">
+                            Search
+                        </button>
+
+                    </div>
+
+                    <div id="searchResults" class="search-results"></div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONSTITUTION ================= -->
+
+        <section class="section" id="constitution">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-label">
+                        CONSTITUTION
+                    </span>
+
+                    <h2>
+                        Constitution of India
+                    </h2>
+
+                    <p>
+                        Learn the basic constitutional framework of India.
+                    </p>
+
+                </div>
+
+
+                <div class="cards three-columns">
+
+                    <article class="info-card">
+
+                        <div class="card-icon">
+                            🛡️
+                        </div>
+
+                        <h3>
+                            Fundamental Rights
+                        </h3>
+
+                        <p>
+                            Constitutional rights that protect important
+                            freedoms and interests of individuals.
+                        </p>
+
+                        <button
+                            class="learn-btn"
+                            data-topic="Fundamental Rights">
+                            Learn More
+                        </button>
+
+                    </article>
+
+
+                    <article class="info-card">
+
+                        <div class="card-icon">
+                            📜
+                        </div>
+
+                        <h3>
+                            Directive Principles
+                        </h3>
+
+                        <p>
+                            Constitutional principles that guide the State
+                            in governance and public policy.
+                        </p>
+
+                        <button
+                            class="learn-btn"
+                            data-topic="Directive Principles">
+                            Learn More
+                        </button>
+
+                    </article>
+
+
+                    <article class="info-card">
+
+                        <div class="card-icon">
+                            🇮🇳
+                        </div>
+
+                        <h3>
+                            Fundamental Duties
+                        </h3>
+
+                        <p>
+                            Constitutional duties that describe important
+                            responsibilities of citizens.
+                        </p>
+
+                        <button
+                            class="learn-btn"
+                            data-topic="Fundamental Duties">
+                            Learn More
+                        </button>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= LAWS ================= -->
+
+        <section class="section light-section" id="laws">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-label">
+                        LAW LIBRARY
+                    </span>
+
+                    <h2>
+                        Major Areas of Law
+                    </h2>
+
+                    <p>
+                        Explore different areas of the Indian legal system.
+                    </p>
+
+                </div>
+
+
+                <div class="cards law-grid">
+
+                    <article class="law-card"
+                             data-search="constitutional constitution rights">
+
+                        <span class="law-icon">🏛️</span>
+
+                        <h3>
+                            Constitutional Law
+                        </h3>
+
+                        <p>
+                            Study the Constitution, governmental powers,
+                            rights and constitutional principles.
+                        </p>
+
+                        <button
+                            class="save-btn"
+                            data-topic="Constitutional Law">
+                            ☆ Save
+                        </button>
+
+                    </article>
+
+
+                    <article class="law-card"
+                             data-search="criminal crime offence bail">
+
+                        <span class="law-icon">⚖️</span>
+
+                        <h3>
+                            Criminal Law
+                        </h3>
+
+                        <p>
+                            Learn about offences, criminal procedure,
+                            investigation and criminal justice.
+                        </p>
+
+                        <button
+                            class="save-btn"
+                            data-topic="Criminal Law">
+                            ☆ Save
+                        </button>
+
+                    </article>
+
+
+                    <article class="law-card"
+                             data-search="civil property contract dispute">
+
+                        <span class="law-icon">📄</span>
+
+                        <h3>
+                            Civil Law
+                        </h3>
+
+                        <p>
+                            Covers areas such as contracts, property,
+                            disputes and civil remedies.
+                        </p>
+
+                        <button
+                            class="save-btn"
+                            data-topic="Civil Law">
+                            ☆ Save
+                        </button>
+
+                    </article>
+
+
+                    <article class="law-card"
+                             data-search="family marriage divorce custody">
+
+                        <span class="law-icon">👨‍👩‍👧</span>
+
+                        <h3>
+                            Family Law
+                        </h3>
+
+                        <p>
+                            Learn about legal issues involving marriage,
+                            divorce, maintenance and family relationships.
+                        </p>
+
+                        <button
+                            class="save-btn"
+                            data-topic="Family Law">
+                            ☆ Save
+                        </button>
+
+                    </article>
+
+
+                    <article class="law-card"
+                             data-search="cyber cybercrime internet technology">
+
+                        <span class="law-icon">💻</span>
+
+                        <h3>
+                            Cyber Law
+                        </h3>
+
+                        <p>
+                            Legal issues involving computers, digital
+                            systems, electronic records and the internet.
+                        </p>
+
+                        <button
+                            class="save-btn"
+                            data-topic="Cyber Law">
+                            ☆ Save
+                        </button>
+
+                    </article>
+
+
+                    <article class="law-card"
+                             data-search="corporate company business">
+
+                        <span class="law-icon">🏢</span>
+
+                        <h3>
+                            Corporate Law
+                        </h3>
+
+                        <p>
+                            Learn about companies, corporate governance,
+                            business structures and compliance.
+                        </p>
+
+                        <button
+                            class="save-btn"
+                            data-topic="Corporate Law">
+                            ☆ Save
+                        </button>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= COURTS ================= -->
+
+        <section class="section" id="courts">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-label">
+                        COURT SYSTEM
+                    </span>
+
+                    <h2>
+                        Indian Court Hierarchy
+                    </h2>
+
+                    <p>
+                        Understand the basic structure of the Indian judiciary.
+                    </p>
+
+                </div>
+
+
+                <div class="court-system">
+
+                    <article class="court-card supreme">
+
+                        <div class="court-number">
+                            1
+                        </div>
+
+                        <div>
+                            <h3>
+                                Supreme Court of India
+                            </h3>
+
+                            <p>
+                                The highest court in the Indian judicial system.
+                            </p>
+                        </div>
+
+                    </article>
+
+
+                    <div class="arrow">
+                        ↓
+                    </div>
+
+
+                    <article class="court-card">
+
+                        <div class="court-number">
+                            2
+                        </div>
+
+                        <div>
+                            <h3>
+                                High Courts
+                            </h3>
+
+                            <p>
+                                Constitutional courts exercising jurisdiction
+                                over States and Union Territories as assigned.
+                            </p>
+                        </div>
+
+                    </article>
+
+
+                    <div class="arrow">
+                        ↓
+                    </div>
+
+
+                    <article class="court-card">
+
+                        <div class="court-number">
+                            3
+                        </div>
+
+                        <div>
+                            <h3>
+                                District & Subordinate Courts
+                            </h3>
+
+                            <p>
+                                Courts that handle a wide range of civil and
+                                criminal matters at the district and local level.
+                            </p>
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CASE STATUS ================= -->
+
+        <section class="section case-section" id="case-status">
+
+            <div class="container">
+
+                <div class="case-box">
+
+                    <div>
+
+                        <span class="section-label">
+                            COURT SERVICES
+                        </span>
+
+                        <h2>
+                            Check Your Case Status
+                        </h2>
+
+                        <p>
+                            Use the official eCourts services to search
+                            case information and court records.
+                        </p>
+
+                    </div>
+
+                    <a
+                        href="https://services.ecourts.gov.in/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn primary-btn">
+
+                        Open Official eCourts
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= LEARN LAW ================= -->
+
+        <section class="section light-section" id="learn">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-label">
+                        LEARN LAW
+                    </span>
+
+                    <h2>
+                        Legal Concepts for Beginners
+                    </h2>
+
+                    <p>
+                        Start with simple explanations of common legal concepts.
+                    </p>
+
+                </div>
+
+
+                <div class="cards four-columns">
+
+                    <article class="learn-card">
+
+                        <span>📋</span>
+
+                        <h3>
+                            What is an FIR?
+                        </h3>
+
+                        <p>
+                            Learn the basic purpose of a First Information Report
+                            in the criminal justice process.
+                        </p>
+
+                    </article>
+
+
+                    <article class="learn-card">
+
+                        <span>⚖️</span>
+
+                        <h3>
+                            What is Bail?
+                        </h3>
+
+                        <p>
+                            Understand the basic concept of release from custody
+                            subject to legal conditions.
+                        </p>
+
+                    </article>
+
+
+                    <article class="learn-card">
+
+                        <span>📜</span>
+
+                        <h3>
+                            What is a Writ?
+                        </h3>
+
+                        <p>
+                            Learn about constitutional remedies involving
+                            directions issued by constitutional courts.
+                        </p>
+
+                    </article>
+
+
+                    <article class="learn-card">
+
+                        <span>📝</span>
+
+                        <h3>
+                            What is a Contract?
+                        </h3>
+
+                        <p>
+                            Understand the basic idea of legally enforceable
+                            agreements.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SAVED TOPICS ================= -->
+
+        <section class="section" id="saved">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-label">
+                        MY TOPICS
+                    </span>
+
+                    <h2>
+                        Saved Topics
+                    </h2>
+
+                    <p>
+                        Your saved topics are stored in this browser.
+                    </p>
+
+                </div>
+
+                <div id="savedTopics" class="saved-topics">
+
+                    <p class="empty-message">
+                        You haven't saved any topics yet.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= RESOURCES ================= -->
+
+        <section class="section resources-section" id="resources">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-label">
+                        OFFICIAL RESOURCES
+                    </span>
+
+                    <h2>
+                        Useful Legal Websites
+                    </h2>
+
+                    <p>
+                        Visit official sources for current legal information.
+                    </p>
+
+                </div>
+
+
+                <div class="resources-grid">
+
+                    <a
+                        href="https://www.indiacode.nic.in/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="resource-card">
+
+                        <span>📚</span>
+
+                        <div>
+                            <h3>India Code</h3>
+
+                            <p>
+                                Central Acts and legal information.
+                            </p>
+                        </div>
+
+                        <strong>↗</strong>
+
+                    </a>
+
+
+                    <a
+                        href="https://www.sci.gov.in/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="resource-card">
+
+                        <span>🏛️</span>
+
+                        <div>
+                            <h3>Supreme Court of India</h3>
+
+                            <p>
+                                Official Supreme Court website.
+                            </p>
+                        </div>
+
+                        <strong>↗</strong>
+
+                    </a>
+
+
+                    <a
+                        href="https://ecourts.gov.in/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="resource-card">
+
+                        <span>⚖️</span>
+
+                        <div>
+                            <h3>eCourts Services</h3>
+
+                            <p>
+                                Official digital court services.
+                            </p>
+                        </div>
+
+                        <strong>↗</strong>
+
+                    </a>
+
+
+                    <a
+                        href="https://legalaffairs.gov.in/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="resource-card">
+
+                        <span>🇮🇳</span>
+
+                        <div>
+                            <h3>Department of Legal Affairs</h3>
+
+                            <p>
+                                Official legal affairs information.
+                            </p>
+                        </div>
+
+                        <strong>↗</strong>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FAQ ================= -->
+
+        <section class="section faq-section" id="faq">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-label">
+                        FAQ
+                    </span>
+
+                    <h2>
+                        Frequently Asked Questions
+                    </h2>
+
+                </div>
+
+
+                <div class="faq-container">
+
+                    <div class="faq-item">
+
+                        <button class="faq-question">
+                            What is the Constitution of India?
+                            <span>+</span>
+                        </button>
+
+                        <div class="faq-answer">
+
+                            <p>
+                                The Constitution is the foundational legal
+                                framework of India. It establishes institutions,
+                                distributes governmental powers and provides
+                                constitutional rights and principles.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="faq-item">
+
+                        <button class="faq-question">
+                            What is the highest court in India?
+                            <span>+</span>
+                        </button>
+
+                        <div class="faq-answer">
+
+                            <p>
+                                The Supreme Court of India is the country's
+                                highest court.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="faq-item">
+
+                        <button class="faq-question">
+                            Is BharatLaw a substitute for a lawyer?
+                            <span>+</span>
+                        </button>
+
+                        <div class="faq-answer">
+
+                            <p>
+                                No. BharatLaw is intended for general educational
+                                information and should not be treated as
+                                personalized legal advice.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="faq-item">
+
+                        <button class="faq-question">
+                            Where can I find official laws?
+                            <span>+</span>
+                        </button>
+
+                        <div class="faq-answer">
+
+                            <p>
+                                You can use official legal resources such as
+                                India Code and the websites of relevant courts
+                                and government departments.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <div>
+
+                <a href="#home" class="logo footer-logo">
+                    ⚖️ BharatLaw
+                </a>
+
+                <p>
+                    Making Indian legal information easier to understand.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <a href="#constitution">
+                    Constitution
+                </a>
+
+                <a href="#laws">
+                    Laws
+                </a>
+
+                <a href="#courts">
+                    Courts
+                </a>
+
+                <a href="#resources">
+                    Resources
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="container disclaimer">
+
+            <strong>Disclaimer:</strong>
+
+            This website is for general educational and informational
+            purposes only. It does not provide legal advice and does not
+            create a lawyer-client relationship. Always verify current
+            law from authoritative sources and consult a qualified legal
+            professional for advice about a specific matter.
+
+        </div>
+
+
+        <div class="copyright">
+
+            © 2026 BharatLaw. Educational project.
+
+        </div>
+
+    </footer>
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
